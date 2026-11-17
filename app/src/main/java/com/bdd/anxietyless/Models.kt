@@ -1,7 +1,12 @@
 package com.bdd.anxietyless
 
 enum class Topic(val displayName: String) {
-    NUMBERS("Числа"), FRACTIONS("Дроби"), ROOTS("Корни"), TRIGONOMETRY("Тригонометрия")
+    NUMBERS("Числа"),
+    DECIMALS("Десятичные числа"),
+    FRACTIONS("Дроби"),
+    ROOTS("Корни"),
+    TRIGONOMETRY("Тригонометрия"),
+    TABLES("Таблицы × и ²")
 }
 
 enum class Difficulty(val displayName: String) {
